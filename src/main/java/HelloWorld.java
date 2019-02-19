@@ -23,9 +23,18 @@ public class HelloWorld {
 		
 		 for(int i=99;i>1;i--)
 		 { 
-		      System.out.println(i + " bottles of beer on the wall, " + i + " bottles of beer.\n" + 
-		    		  				"Take one down and pass it around - " + (i-1) + " bottles of beer on the wall.\n");
+		      //System.out.println(i + " bottles of beer on the wall, " + i + " bottles of beer.\n" + 
+		    //  "Take one down and pass it around - " + (i-1) + " bottles of beer on the wall.\n");
 		     
+		      if (i<3) {
+		    	  System.out.println(i + " bottles of beer on the wall, " + i + " bottles of beer.\n" + 
+		    		      "Take one down and pass it around - " + (i-1) + " bottle of beer on the wall.\n");
+		      }
+		      
+		      else {
+		    	  System.out.println(i + " bottles of beer on the wall, " + i + " bottles of beer.\n" + 
+		    		      "Take one down and pass it around - " + (i-1) + " bottles of beer on the wall.\n");
+		      }
 		    }		 
 		 System.out.println("1 bottle of beer on the wall, 1 bottle of beer.\n" + 
 	  				"Take one down and pass it around - no more bottles of beer on the wall");
